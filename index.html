@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MyAnimeZone</title>
+
+  <!-- Professional font: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #121212;
+      color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2 {
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      background-color: #1f1f1f;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    #search {
+      padding: 8px 12px;
+      width: 60%;
+      max-width: 400px;
+      border-radius: 6px;
+      border: none;
+      background-color: #2c2c2c;
+      color: #fff;
+    }
+
+    .anime-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+      justify-content: center;
+    }
+
+    .anime-card {
+      background: #1f1f1f;
+      border-radius: 12px;
+      padding: 15px;
+      width: 180px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+      transition: transform 0.3s;
+    }
+
+    .anime-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .anime-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .anime-card a {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 8px 16px;
+      background-color: #ff3c3c;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .anime-card a:hover {
+      background-color: #ff5e5e;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MyAnimeZone</h1>
+    <input type="text" id="search" placeholder="Search anime...">
+  </header>
+
+  <main class="anime-grid">
+
+    <div class="anime-card">
+      <img src="images/vinlandsaga.jpg" alt="Vinland Saga">
+      <h2>Vinland Saga</h2>
+      <a href="https://mega.nz/folder/msB3WIoY#aRp80JpYCl3slqrtB3aBSQ" target="_blank">▶ Watch</a>
+    </div>
+
+    <div class="anime-card">
+      <img src="images/chainsawman.jpg" alt="Chainsaw Man">
+      <h2>Chainsaw Man</h2>
+      <a href="https://mega.nz/folder/utBRCIAA#-taQDHVSlOrgnvbp8j9GhQ" target="_blank">▶ Watch</a>
+    </div>
+
+    <div class="anime-card">
+      <img src="images/lookism.jpg" alt="Lookism">
+      <h2>Lookism</h2>
+      <a href="https://mega.nz/folder/zl4mEZyL#HQAGt7xZZaIjyQxX2K9Bxw" target="_blank">▶ Watch</a>
+    </div>
+
+    <div class="anime-card">
+      <img src="images/sololeveling.jpg" alt="Solo Leveling">
+      <h2>Solo Leveling</h2>
+      <a href="https://mega.nz/folder/5TZHSQhT#fw2NDiZFG1keNLs2-3lf5Q" target="_blank">▶ Watch</a>
+    </div>
+
+    <div class="anime-card">
+      <img src="images/deathnote.jpg" alt="Death Note">
+      <h2>Death Note</h2>
+      <a href="https://mega.nz/folder/ugIwwYwZ#hJ0L7D3y0Qard6ijl6SXpg" target="_blank">▶ Watch</a>
+    </div>
+
+    <div class="anime-card">
+      <img src="images/jujutsukaisen.jpg" alt="Jujutsu Kaisen">
+      <h2>Jujutsu Kaisen</h2>
+      <a href="https://mega.nz/folder/qtRx0JgK#RfRfxvUf10_QscaXQBrYxw" target="_blank">▶ Watch</a>
+    </div>
+
+    <div class="anime-card">
+      <img src="images/devilmaycry.jpg" alt="Devil May Cry">
+      <h2>Devil May Cry</h2>
+      <a href="https://mega.nz/folder/IfBlkCbA#0YshAhC5d4TklxMaH8_HXw" target="_blank">▶ Watch</a>
+    </div>
+
+    <div class="anime-card">
+      <img src="images/shiguru.jpg" alt="Shiguru">
+      <h2>Shiguru</h2>
+      <a href="https://mega.nz/folder/JXBkyIaY#BPt9rfzDSuXeYy3V3RAUYg" target="_blank">▶ Watch</a>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
